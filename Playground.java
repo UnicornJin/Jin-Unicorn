@@ -1,4 +1,4 @@
-public class Main{
+public class Playground{
     public static void main(String[] args){
         find a=new find();
         System.out.print(a.count_charge(100));
