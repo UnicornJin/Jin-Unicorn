@@ -1,0 +1,26 @@
+const a = list(0,1,2,3,4,5,6,7,8,9);
+
+function every_second(items){
+    function helper(n){
+        return n > length(items)
+            ? null
+            : n % 2 === 1 
+                ? pair(list_ref(items, n), helper(n+1))
+                : helper(n + 1);
+    }
+    return helper(0);
+}
+
+function sums(items){
+    function se(n,e,o,i){
+        return n < length(items)
+            ? n % 2 === 0
+                ? se(n + 1, e + list_ref(items, n), o, i)
+                : se(n + 1, e, o + list_ref(items, n), i)
+            : i===1 ? o : e;
+    }
+    return list(se(0,0,0,0),se(0,0,0,1));
+}
+
+every_second(a);
+sums(a);
