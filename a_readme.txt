@@ -1,8 +1,8 @@
-Hey, if you see this page
-
-This is my diary.
-I hope to record every happy and important moment in my life.
-Hope you can enjoy it.
+Hey, you are reading this page
+This is my diary
+I hope to record some happy or important moments in my life
+or just write my boring life
+Hope you enjoy it
 
 Jin-Unicorn
 20/7/2019
